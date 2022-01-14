@@ -36,7 +36,7 @@ const {
     //convo.add("ok, home deleted!");
       });
   
-  // check if user has already save home station
+  // check if user has already saved home station
   app.handle('check_if_home_stored', (conv) => {
     if (conv.user.params.homeStorage){
       conv.session.params.existed = "True";
